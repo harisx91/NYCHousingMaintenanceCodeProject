@@ -1,0 +1,12 @@
+violationid
+buildingid
+boro
+zip                     
+inspectiondate         
+certifieddate           
+originalcorrectbydate    
+newcorrectbydate   
+novdescription         
+class           
+currentstatus         
+currentstatusdate      
