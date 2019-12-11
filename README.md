@@ -49,7 +49,7 @@ This repository contains...
         c. reopened.csv - contains all rows of incidents which were postponed (not actually used in this notebook but kept for future use)
   
   
-        d. notebooks with dates of opening inspections from 2014-2018
+        d. dates of opening inspections from 2014-2018
 
 
 4. The <a href =https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/HPD_Violation_Open_Data_2017.pdf> description</href> of our data
