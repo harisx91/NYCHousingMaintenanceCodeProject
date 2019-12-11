@@ -43,10 +43,10 @@ This repository contains...
         a. filtered.csv - contains all the rows of the columns featured in config/columns.txt
   
   
-       b. clean.csv - contains all rows of incidents which were not postponed
+        b. clean.csv - contains all rows of incidents which were not postponed
 
 
-         c. reopened.csv - contains all rows of incidents which were postponed (not actually used in this notebook but kept for future use)
+        c. reopened.csv - contains all rows of incidents which were postponed (not actually used in this notebook but kept for future use)
   
   
         d. notebooks with dates of opening inspections from 2014-2018
