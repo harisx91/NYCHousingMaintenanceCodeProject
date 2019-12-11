@@ -24,17 +24,20 @@ The data describes several housing violations found in NY and provides details i
 (broken down by borough, and address), how severe it was (broken down into 3 classes, A,B,C where A is least severe 
 and C the most severe)
 
-First we clean our data... This means choosing which columns we want to study, removing nulls and duplicates, and creating a csv dump of the data that we can use for our analysis. See the <a href = https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/notebooks/HousingCleaning.ipynb> Housing Cleaning notebook </href> for details.
+First we clean our data... This means choosing which columns we want to study, removing nulls and duplicates, and creating a csv dump of the data that we can use for our analysis. See the <a href = https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/notebooks/HousingCleaning.ipynb> Housing Cleaning notebook </a> for details.
 
-The meat of our analysis is in the <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/notebooks/HousingViolationDataSetEda.ipynb> Housing Violations Eda notebook. We don't have a business question per say when we enter the notebook but are interested in answering the 'who, what, and when' about housing violations to try and find interesting trends or outliers.  
+The meat of our analysis is in the <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/notebooks/HousingViolationDataSetEda.ipynb> Housing Violations Eda notebook.</a> We don't have a business question per say when we enter the notebook but are interested in answering the 'who, what, and when' about housing violations to try and find interesting trends or outliers.  
 
 This repository contains...
 
-1. A <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/notebooks> notebooks folder </href> with the notebooks mentioned above.
-A <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/config> config folder </href> which lists the columns we are interested in studying. 
+1. A <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/notebooks> notebooks folder </a> with the notebooks mentioned above.
+
+
+2.A <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/config> config folder </a> which lists the columns we are interested in studying. 
 (This makes it easy to add and subtract columns without making any code changes.)
 
-2. A <a href = https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/data> data folder </href> which contains our cleaned data
+
+3. A <a href = https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/data> data folder </a> which contains our cleaned data
   
   a. filtered.csv - contains all the rows of the columns featured in config/columns.txt
   
@@ -44,7 +47,8 @@ A <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/mast
   
   d. notebooks with dates of opening inspections from 2014-2018
 
-3. The <a href =https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/HPD_Violation_Open_Data_2017.pdf> description</href> of our data
+
+4. The <a href =https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/HPD_Violation_Open_Data_2017.pdf> description</href> of our data
 
 
  
