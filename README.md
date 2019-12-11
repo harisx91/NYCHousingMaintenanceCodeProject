@@ -6,13 +6,13 @@ Benny Cohen, Elham Bahrami, Harrris Sumra
 
 <strong>Summary:</strong> In this repository we are interested in finding what areas of NY have the most number of housing violations
 and when these incidents occur. We use the <a href=https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Violations/wvxf-dwi5>NYC Housing Maintenance Code Project dataset</a> with 
-the <a href=https://dev.socrata.com/> Socrata API</a>. After cleaning the data, making a few visualizations and a statistical test, we conclude that although there is no significant difference in where incidents occur, most of them have been raised in the Fall 
-in recent years. We suspect that it has become part of the city's rutine to inspect buildings during the Fall, and advise building owners to
-be ready for their inspections before this period. We also note that Queens and Brooklyn have a high number of incidents compared to the other boroughs. This isn't a high priority issue since incidents in these boroughs get resolved in about the same time as other boroughs. We recomend using our data of incidents per year to create a monitor to automatically notify the city if these numbers begin to show anomalities.
+the <a href=https://dev.socrata.com/> Socrata API</a>. After cleaning the data, making a few visualizations and a statistical test, we conclude that most of housing violations have been raised in the Fall 
+in recent years. We suspect that it has become part of the city's routine to inspect buildings during the Fall, and advise building owners to
+be ready for their inspections before this period. We also note that Queens and Brooklyn have a high number of incidents compared to the other boroughs. This isn't a high priority issue since incidents in these boroughs get resolved in about the same time as other boroughs. We recommend using our data of incidents per year to create a monitor to automatically notify the city if these numbers begin to show anomalies.
 
 <hr>
 <strong>Motivation:</strong> It is important to keep track of how buildings in New York are being maintained. This means seing
-if there are any red flags of areas where an abnormal amount of incidents are occuring.
+if there are any red flags of areas where an abnormal amount of incidents are occurring.
 It also means looking to see if incidents tend to be raised during certain times of year since that can indicate general 
 issues in buildings. For example, if many issues are raised during the winter, that may indicate problems with heating.
 
@@ -21,14 +21,14 @@ issues in buildings. For example, if many issues are raised during the winter, t
 We do simple data analysis using Python on the <a href=https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Violations/wvxf-dwi5>NYC Housing Maintenance Code Project dataset</a>
 
 The data describes several housing violations found in NY and provides details including where the incident was,
-(broken down by boro, and address), how severe it was (broken down into 3 classes, A,B,C where A is least severe 
+(broken down by borough, and address), how severe it was (broken down into 3 classes, A,B,C where A is least severe 
 and C the most severe)
 
 First we clean our data... This means choosing which columns we want to study, removing nulls and duplicates, and creating a csv dump of the data that we can use for our analysis. See the <a href = https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/notebooks/HousingCleaning.ipynb> Housing Cleaning notebook </href> for details. 
 
-The meat of our analysis is in the <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/notebooks/HousingViolationDataSetEda.ipynb> Housing Violations Eda notebook. We don't have a buisness question per say when we enter the notebook but are interested in answering the 'who, what, and when' about housing violations to try and find interesting trends or outliers.  
+The meat of our analysis is in the <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/notebooks/HousingViolationDataSetEda.ipynb> Housing Violations Eda notebook. We don't have a business question per say when we enter the notebook but are interested in answering the 'who, what, and when' about housing violations to try and find interesting trends or outliers.  
 
-This repository contains.
+This repository contains...
 
 1. A <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/notebooks> notebooks folder </href> with the notebooks mentioned above.
 A <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/config> config folder </href> which lists the columns we are interested in studying. 
@@ -44,7 +44,7 @@ A <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/mast
   
   d. notebooks with dates of opening inspections from 2014-2018
 
-3. The <a href =https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/HPD_Violation_Open_Data_2017.pdf> description</href> of all of our data
+3. The <a href =https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/HPD_Violation_Open_Data_2017.pdf> description</href> of our data
 
 
  
