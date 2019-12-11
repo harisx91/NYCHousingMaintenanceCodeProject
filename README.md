@@ -33,17 +33,21 @@ This repository contains...
 1. A <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/notebooks> notebooks folder </a> with the notebooks mentioned above.
 
 
-2.A <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/config> config folder </a> which lists the columns we are interested in studying. 
+2. A <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/config> config folder </a> which lists the columns we are interested in studying. 
 (This makes it easy to add and subtract columns without making any code changes.)
 
 
 3. A <a href = https://github.com/harisx91/NYCHousingMaintenanceCodeProject/tree/master/data> data folder </a> which contains our cleaned data
   
+  
   a. filtered.csv - contains all the rows of the columns featured in config/columns.txt
+  
   
   b. clean.csv - contains all rows of incidents which were not postponed
 
+
   c. reopened.csv - contains all rows of incidents which were postponed (not actually used in this notebook but kept for future use)
+  
   
   d. notebooks with dates of opening inspections from 2014-2018
 
