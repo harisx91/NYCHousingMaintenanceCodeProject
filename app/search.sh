@@ -1,6 +1,5 @@
 touch results
 > results
-wild=*
 while [ 1=1 ]
 do
 Echo 'Enter a search term or enter quit to see results and leave'
@@ -10,7 +9,6 @@ if [ $searchTerm = 'quit' ]; then
 fi
 echo $searchTerm >> results
 egrep -c -w -i *$searchTerm* novdescriptions.csv >> results
-echo "results recorded"
 echo "results recorded"
 done
 
