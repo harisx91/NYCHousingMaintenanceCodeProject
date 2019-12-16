@@ -28,15 +28,6 @@ First we clean our data... This means choosing which columns we want to study, r
 
 The meat of our analysis is in the <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/notebooks/HousingViolationDataSetEda.ipynb> Housing Violations Eda notebook.</a> We don't have a business question per say when we enter the notebook but are interested in answering the 'who, what, and when' about housing violations to try and find interesting trends or outliers.  
 <hr>
-<strong>Findings:</strong>
-I was able to clarify that medium severe incident has the highest number and most severe incident has the highest change percentage over the years.
-
-
-<hr>
-<strong>Recomendation:</strong>
-Apartment Seekers: So are there any areas where a future resident should avoid? Probably not. The spread of incidents is about equal in all areas. Are there any things future residents should look for? We know that the most common incidents are problems with carbon monoxide detectors, paining, and plumbing.
-Owners: Be most prepared for inspections during the fall months, paying attention to the common incidents above.
-City: Consider improving data collection by recording the incidents and not having duplicates in the dataset. One building should not have 1000 incidents. Consider using this data to build monitors to send alerts when the number of incidents in a category exeeds a threshold.
 
 This repository contains...
 
@@ -62,10 +53,8 @@ This repository contains...
         d. dates of opening inspections from 2014-2018
 
 
-4. The <a href =https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/HPD_Violation_Open_Data_2017.pdf> description</href> of our data...
+4. The <a href =https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/HPD_Violation_Open_Data_2017.pdf> description</href> of our data.
 
-
-
-
- 
-
+<hr>
+<strong>Findings and Recomendations:</strong>
+The most common incidents have to to with carbon monoxide detectors, painting, and plumbing. Apartment seekers should be on the lookout for these problems when renting apartments. Most incidents have medium severity and are raised in the fall. Also the Bronx has the most number of incidents although most boroughs have around an equal number of incidents. Because there are no outlying areas, no immediate action is needed although we recommend making monitors to automate alerts for if the rate increases above normal levels. We also note some problems with data collection like single buildings having hundreds of incidents and advise the city to improve their data collection process. 
