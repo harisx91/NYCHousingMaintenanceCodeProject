@@ -53,7 +53,7 @@ This repository contains...
         d. dates of opening inspections from 2014-2018
 
 
-4. The <a href =https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/HPD_Violation_Open_Data_2017.pdf> description</href> of our data.
+4. The <a href =https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/HPD_Violation_Open_Data_2017.pdf> description</a> of our data.
 
 <hr>
 <strong>Findings and Recomendations:</strong>
