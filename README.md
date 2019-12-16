@@ -1,6 +1,6 @@
 ### NYC Housing Maintenance Code Project
 
-Benny Cohen, Elham Bahrami, Harrris Sumra
+Benny Cohen, Elham Bahrami, Haris Sumra
 
 12/1/2019
 
