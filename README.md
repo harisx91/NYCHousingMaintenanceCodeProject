@@ -29,6 +29,14 @@ First we clean our data... This means choosing which columns we want to study, r
 The meat of our analysis is in the <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/notebooks/HousingViolationDataSetEda.ipynb> Housing Violations Eda notebook.</a> We don't have a business question per say when we enter the notebook but are interested in answering the 'who, what, and when' about housing violations to try and find interesting trends or outliers.  
 <hr>
 <strong>Findings:</strong>
+I was able to clarify that medium severe incident has the highest number and most severe incident has the highest change percentage over the years.
+
+
+<hr>
+<strong>Recomendation:</strong>
+Apartment Seekers: So are there any areas where a future resident should avoid? Probably not. The spread of incidents is about equal in all areas. Are there any things future residents should look for? We know that the most common incidents are problems with carbon monoxide detectors, paining, and plumbing.
+Owners: Be most prepared for inspections during the fall months, paying attention to the common incidents above.
+City: Consider improving data collection by recording the incidents and not having duplicates in the dataset. One building should not have 1000 incidents. Consider using this data to build monitors to send alerts when the number of incidents in a category exeeds a threshold.
 
 This repository contains...
 
