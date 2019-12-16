@@ -27,6 +27,8 @@ and C the most severe)
 First we clean our data... This means choosing which columns we want to study, removing nulls and duplicates, and creating a csv dump of the data that we can use for our analysis. See the <a href = https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/notebooks/HousingCleaning.ipynb> Housing Cleaning notebook </a> for details.
 
 The meat of our analysis is in the <a href=https://github.com/harisx91/NYCHousingMaintenanceCodeProject/blob/master/notebooks/HousingViolationDataSetEda.ipynb> Housing Violations Eda notebook.</a> We don't have a business question per say when we enter the notebook but are interested in answering the 'who, what, and when' about housing violations to try and find interesting trends or outliers.  
+<hr>
+<strong>Findings:</strong>
 
 This repository contains...
 
